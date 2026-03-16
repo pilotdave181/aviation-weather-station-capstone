@@ -35,8 +35,8 @@ TinyGsm modem(SerialAT);
 XPowersPMU PMU;
 
 // Configuration
-const char* phoneNumber = "+1234567890";  // Replace with target phone number
-const char* smsMessage = "KJFK 121856Z 18008KT 10SM FEW250 22/14 A3012 RMK TEST";
+const char* phoneNumber = "+18196166424";  // Replace with target phone number
+const char* smsMessage = "CYND 121856Z 18008G20KT 22/14 A3012 RMK TEST";
 
 // Function prototypes
 void initializePMU();
