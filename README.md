@@ -2,6 +2,9 @@
 
 ## Overview
 This weather station uses a LilyGo T-SIM7080G (ESP32-S3 with a SIM7080G cellular modem and AXP2101 PMU) along with several sensors to measure wind, temperature, humidity, and pressure. Instead of uploading to a cloud dashboard, the station answers by SMS: text it from any phone and it replies with a METAR-style observation. This makes it usable anywhere with cellular coverage, with no Wi-Fi required.
+<img width="899" height="674" alt="image" src="https://github.com/user-attachments/assets/32b3f20a-f57d-4703-b94d-a24845458d90" />
+
+
 
 ## Features
 - Wind Speed: Measures wind speed with a Hall effect sensor and cup anemometer, reported as a 2-minute average with a 10-minute gust peak.
